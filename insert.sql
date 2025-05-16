@@ -1,0 +1,23 @@
+CREATE DATABASE college;
+CREATE DATABASE IF NOT EXISTS college;
+DROP DATABASE IF EXISTS school;
+USE college;
+CREATE TABLE student(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL
+);
+DROP TABLE student;
+INSERT INTO student VALUES(1,"GALIB",25);
+INSERT INTO student VALUES(2,"RAGIB",26);
+INSERT INTO student VALUES(3,"Shroddha Didi",34);
+INSERT INTO student
+(id,name,age)
+VALUES
+(1,"SHARIFUL",29),
+(2,"ABIR",39),
+(3,"MIM",23);
+SELECT*FROM student;
+SHOW DATABASES;
+SHOW TABLES;  
+
