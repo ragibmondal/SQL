@@ -852,7 +852,7 @@ INSERT INTO departments (id, department_name) VALUES
 (103, 'Marketing');
 
 INSERT INTO employees (id, name, department_id) VALUES
-(1, 'Arafat', 101),
+(1, 'Ragib', 101),
 (2, 'Samiul', 102),
 (3, 'Shuvo', 103),
 (4, 'Alex', NULL);
@@ -875,7 +875,7 @@ ON employees.department_id = departments.id;
 #### **📌 Output:**  
 | name   | department_name |  
 |--------|---------------|  
-| Arafat | IT            |  
+| Ragib | IT            |  
 | Samiul | HR            |  
 | Shuvo  | Marketing     |  
 
@@ -895,7 +895,7 @@ ON employees.department_id = departments.id;
 #### **📌 Output:**  
 | name   | department_name |  
 |--------|---------------|  
-| Arafat | IT            |  
+| Ragib | IT            |  
 | Samiul | HR            |  
 | Shuvo  | Marketing     |  
 | Alex   | NULL          |  
@@ -972,7 +972,7 @@ INSERT INTO departments (id, department_name) VALUES
 (103, 'Marketing');
 
 INSERT INTO employees (id, name, department_id) VALUES
-(1, 'Arafat', 101),
+(1, 'Ragib', 101),
 (2, 'Samiul', 102),
 (3, 'Shuvo', 103),
 (4, 'Alex', NULL);
@@ -995,7 +995,7 @@ ON employees.department_id = departments.id;
 #### **📌 Output:**  
 | name   | department_name |  
 |--------|---------------|  
-| Arafat | IT            |  
+| Ragib | IT            |  
 | Samiul | HR            |  
 | Shuvo  | Marketing     |  
 
@@ -1073,7 +1073,7 @@ SELECT * FROM employees;
 #### **📌 Output (নতুন `employees_duplicate` টেবিল)**  
 | id | name  | department | salary  |  
 |----|------|-----------|--------|  
-| 1  | Arafat  | IT        | 50000  |  
+| 1  | Ragib  | IT        | 50000  |  
 | 2  | Samiul  | HR        | 40000  |  
 | 3  | Shuvo   | Marketing | 45000  |  
 
@@ -1106,7 +1106,7 @@ SELECT name, salary FROM employees WHERE salary > 40000;
 #### **📌 Output (নতুন `high_salary_employees` টেবিল)**  
 | name   | salary  |  
 |--------|--------|  
-| Arafat | 50000  |  
+| Ragib | 50000  |  
 | Shuvo  | 45000  |  
 
 ---
@@ -1175,7 +1175,7 @@ LIMIT 5;
 🔹 **📌 Output:**  
 | id | name  | department | salary  |  
 |----|------|-----------|--------|  
-| 1  | Arafat  | IT        | 50000  |  
+| 1  | Ragib  | IT        | 50000  |  
 | 2  | Samiul  | HR        | 40000  |  
 | 3  | Shuvo   | Marketing | 45000  |  
 | 4  | Alex    | Finance   | 42000  |  
@@ -1193,7 +1193,7 @@ LIMIT 3;
 | id | name  | department | salary  |  
 |----|------|-----------|--------|  
 | 1  | Arafat  | IT        | 50000  |  
-| 5  | John    | IT        | 46000  |  
+| 5  | Ragib    | IT        | 46000  |  
 | 3  | Shuvo   | Marketing | 45000  |  
 
 ---
@@ -1273,7 +1273,7 @@ LIMIT 5;
 🔹 **Result:**  
 | id | name  | department | salary  |  
 |----|------|-----------|--------|  
-| 1  | Arafat  | IT        | 50000  |  
+| 1  | Ragib  | IT        | 50000  |  
 | 2  | Samiul  | HR        | 40000  |  
 | 3  | Shuvo   | Marketing | 45000  |  
 | 4  | Alex    | Finance   | 42000  |  
