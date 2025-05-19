@@ -1,0 +1,41 @@
+INT 
+FLOAT
+DOUBLE
+CHAR /*fixed length*/
+VARCHAR #variable lengh charecter array
+BOOLEAN 
+INSERT
+TEXT
+TIME /*IN LAB EVOLUTION TIME DATE ASBE*/
+DATE /*IN LAB EVOLUTION TIME DATE ASBE*/
+DATE-TIME /*IN LAB EVOLUTION TIME DATE ASBE*/
+
+CONSTRAINS:6 TYPES
+PRIMARY KEY; /*UNIQUE AND NOT NULL*/
+FOREIGN KEY;
+UNIQUE;
+NOT NULL;
+DEFAULT;
+CHECK;
+/*Updating a values*/
+UPDATE STUDENT 
+SET SECTION ="L"
+WHERE ID=1;
+*UPDATE AGE TO 30 FOR ALL STUDENTS
+OF "A" SECTION
+
+/*dELEETING A ROW
+*/
+DELETE FROM STUDENT
+WHERE ID=2;
+
+/*Altering table*/ 
+ALTER TABLE student
+ADD COLUMN city VARCHAR(20);
+DROP COLUMN age;
+/*i want to add city in table*/
+4 ta kaj kora jai
+a)add column
+b)drop column
+c)rename column /*lab evolution e thakbe*/
+d)modify datatype /*LAB EVOLUTION E THAKBE*/
