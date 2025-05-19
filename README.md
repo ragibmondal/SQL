@@ -1015,7 +1015,7 @@ ON employees.department_id = departments.id;
 #### **📌 Output:**  
 | name   | department_name |  
 |--------|---------------|  
-| Arafat | IT            |  
+| Ragib | IT            |  
 | Samiul | HR            |  
 | Shuvo  | Marketing     |  
 | Alex   | NULL          |  
@@ -1192,7 +1192,7 @@ LIMIT 3;
 🔹 **📌 Output:**  
 | id | name  | department | salary  |  
 |----|------|-----------|--------|  
-| 1  | Arafat  | IT        | 50000  |  
+| 1  | Ragib  | IT        | 50000  |  
 | 5  | Ragib    | IT        | 46000  |  
 | 3  | Shuvo   | Marketing | 45000  |  
 
@@ -1225,7 +1225,7 @@ LIMIT 2;
 🔹 **📌 Output:**  
 | id | name  | department | salary  |  
 |----|------|-----------|--------|  
-| 1  | Arafat  | IT        | 50000  |  
+| 1  | Ragib  | IT        | 50000  |  
 | 5  | John    | IT        | 46000  |  
 
 ---
