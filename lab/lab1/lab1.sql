@@ -37,5 +37,5 @@ DROP COLUMN age;
 4 ta kaj kora jai
 a)add column
 b)drop column
-c)rename column /*lab evolution e thakbe*/
-d)modify datatype /*LAB EVOLUTION E THAKBE*/
+c)rename column /*lab evolution e thakbe ALTER TABLE STUDENT CHANGE  DB DI DATE;*/ 
+d)modify datatype /*LAB EVOLUTION E THAKBE ALTER TABLE STUDENT MODIFY ABIR DECIMAL; OR ANY OTHER THING*/
